@@ -1,21 +1,24 @@
 import turtle
-
 if __name__ == '__main__':
     jack = turtle.Turtle()
     jack.shape('turtle')
     jack.color('blue', 'green')
     jack.speed(100)
-
+    jack.pensize(2.5)
     # TODO 1) Set the X position of the turtle so that it starts on the left.
     jack.penup()
     jack.setx(-400)
-    jack.pendown()
     for i in range(5):
+        for i in range(10):
+            jack.penup()
+            jack.forward(50)
+            jack.pendown()
 
+            for i in range(5):
+                jack.forward(30)
+                jack.left(144)
+        jack.left(144)
 
-        for i in range(5):
-            jack.forward(90)
-            jack.left(144)
 
 
     # TODO 2) Make the turtle draw a star shape. Hint: angle=144.
