@@ -36,6 +36,10 @@ if __name__ == '__main__':
         jack.pencolor("purple")
     elif color == "yellow":
         jack.pencolor("yellow")
+    elif color == "green":
+        jack.pencolor("green")
+    elif color == "orange":
+        jack.pencolor("orange")
     #      6) If the user doesn't enter anything, choose a random color
     elif color == "":
         jack.pencolor(get_random_color())
