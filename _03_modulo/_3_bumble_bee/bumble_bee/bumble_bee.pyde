@@ -7,7 +7,8 @@ def setup():
 
 def draw():
     
-    # First run the program and you should see a flower.  
+    # First run the program and you should see a flower.
+     
   
   
     # Then, use a loop to make a body for the Bee! 

@@ -8,16 +8,20 @@ if __name__ == '__main__':
     # TODO 1) Set the X position of the turtle so that it starts on the left.
     jack.penup()
     jack.setx(-400)
-    for i in range(5):
-        for i in range(10):
-            jack.penup()
-            jack.forward(50)
-            jack.pendown()
 
-            for i in range(5):
-                jack.forward(30)
-                jack.left(144)
-        jack.left(144)
+
+    for i in range(10):
+        jack.penup()
+        jack.forward(50)
+        jack.pendown()
+
+        for i in range(5):
+            jack.forward(30)
+            jack.left(144)
+    jack.penup()
+    jack.forward(100)
+    jack.shapesize(2.5)
+
 
 
 
