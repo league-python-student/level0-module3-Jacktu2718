@@ -13,9 +13,9 @@ def draw():
         h-=40        
     # Set the size of your sketch
         if i % 2 == 0:
-            fill('#FF0505')
+            fill('#FFFFFF')
         else:
-            fill('#217914')
+            fill('#FF0505')
             
                 
      

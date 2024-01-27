@@ -1,5 +1,4 @@
-w=50
-h=50
+
 
 def setup():
      ellipseMode(CENTER)
@@ -9,8 +8,9 @@ def setup():
 
 
 def draw():
-    global w,h
-    for i in range(10):
+    w=50
+    h=50
+    for i in range(39):
         ellipse(w, h, 50, 50)
         fill('#030303')
         
@@ -21,11 +21,11 @@ def draw():
         else:
             fill('#030303')
             
-        if w>500 and y>500:
-            w=480
-            y=480
+    draw_bee_face(w, h)        
+            
+        
     
-draw_bee_face(480, 480):
+
         
 
     
