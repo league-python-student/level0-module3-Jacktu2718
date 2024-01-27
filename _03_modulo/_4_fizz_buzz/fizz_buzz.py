@@ -17,5 +17,3 @@
 """
 from tkinter import Tk, simpledialog, messagebox
 if __name__ == '__main__':
-
-

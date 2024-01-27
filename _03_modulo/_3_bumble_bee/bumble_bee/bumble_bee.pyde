@@ -1,3 +1,6 @@
+w=50
+h=50
+
 def setup():
      ellipseMode(CENTER)
      size(500, 500)
@@ -6,6 +9,29 @@ def setup():
 
 
 def draw():
+    global w,h
+    for i in range(10):
+        ellipse(w, h, 50, 50)
+        fill('#030303')
+        
+        w+=10
+        h+=10
+        if i % 2 == 0:
+            fill('#FFF700')
+        else:
+            fill('#030303')
+            
+        if w>500 and y>500:
+            w=480
+            y=480
+    
+draw_bee_face(480, 480):
+        
+
+    
+
+        
+                                                                                                                                                                                                                                                                                                    
     
     # First run the program and you should see a flower.
      
@@ -14,17 +40,17 @@ def draw():
     # Then, use a loop to make a body for the Bee! 
     # (see the image on the recipe, it's a diagonal line of circles)
     # Use modulo to make the colors alternate between yellow and black
-    
+
 
 
 
     # Now put his head on using draw_bee_face(x,y)
     
 
-    pass
 
 #**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/
 
+    
 def draw_flower(x, y):
      noStroke()
      translate(x, y)
